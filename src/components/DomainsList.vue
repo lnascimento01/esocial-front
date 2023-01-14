@@ -53,16 +53,13 @@
     },
     methods: {
       retrieveDomains() {
-        this.$isLoading(true);
         DataService.getAll()
           .then(response => {
             this.domains = response.data;
             console.log(response.data);
-            this.$isLoading(false);
           })
           .catch(e => {
             console.log(e);
-            this.$isLoading(false);
           });
       },
   

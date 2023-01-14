@@ -13,6 +13,7 @@
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "vue": "^3.2.45",
+    "vue-google-charts": "^1.1.0",
     "vue-router": "^4.1.6",
     "vue3-loading-screen": "^1.0.3"
   },
