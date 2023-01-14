@@ -11,7 +11,7 @@ const routes =  [
     path: "/",
     alias: "/home",
     name: "home",
-    component: () => import("./components/WelcomeItem.vue")
+    component: () => import("./components/Welcome.vue")
   },
   {
     path: "/domain/:id",
